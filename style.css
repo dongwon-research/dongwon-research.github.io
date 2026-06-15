@@ -165,3 +165,24 @@ body.admin-mode-active .admin-only-feature {
 }
 .social-icon-link:hover { color: #4f46e5; transform: scale(1.1); }
 .social-icon-link svg { width: 1.75rem; height: 1.75rem; }
+.edit-fab {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    background-color: #4f46e5;
+    color: white;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    opacity: 0.55;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.edit-fab:hover {
+    opacity: 1;
+    transform: scale(1.08);
+}
